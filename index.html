@@ -40,32 +40,65 @@
 <body class="font-mukta">
 
     <!-- header section -->
-    <header class="max-w-[1440px] mx-auto">
+    <header class="max-w-[1440px] mx-auto mt-6">
 
-      <nav class="text-white bg-primary-red rounded-full flex justify-between">
+      <nav class="text-white md:bg-primary-red rounded-full flex justify-between items-center px-6  md:px-10 md:py-5 ">
 
-        <ul class="text-lg flex gap-8 ">
-          <li><a >Home</a></li>
-          <li><a >About Us</a></li>
-          <li><a >Shop</a></li>
-          <li><a >All Fruits</a></li>
+        <ul class="hidden md:block text-lg  md:flex gap-8 ">
+          <li class="cursor-pointer"><a >Home</a></li>
+          <li class="cursor-pointer"><a >About Us</a></li>
+          <li class="cursor-pointer"><a >Shop</a></li>
+          <li class="cursor-pointer"><a >All Fruits</a></li>
         </ul>
 
-        <div class="flex gap-2 w-30">
-          <img src="images/logo.png">
-          <h1>Fruit Burst</h1>
+        <div class="flex gap-2 items-center">
+          <img class="w-7 md:w-10" src="images/logo.png">
+          <h1 class="text-xl md:text-3xl font-semibold  text-black md:text-white">Fruit Burst</h1>
         </div>
 
-        <div>
-          <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-          <i class="fa-solid fa-bars"></i>
+        <div class="hidden md:block relative">
+          <i class="fa-solid fa-magnifying-glass text-gray-500 absolute top-4 right-6" ></i>
+          <input type="text" placeholder="Search here" class="input rounded-full w-72 max-w-xs " />
+        </div>
+          <i class="fa-solid fa-bars text-xl cursor-pointer text-black md:text-white md:hidden"></i>
         </div>
 
       </nav>
-    
+
       <!-- banner -->
       <div>
-
+        
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a> 
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a> 
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a> 
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a> 
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+        
       </div>
       <!-- banner-card -->
       <div>
