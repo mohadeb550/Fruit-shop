@@ -141,14 +141,188 @@
         
       </div>
       <!-- banner-card -->
-      <div>
-       
+      <div class="hidden md:block relative md:-top-16 lg:-top-24">
+
+        <div class=" bg-white shadow-xl flex justify-center items-center text-center gap-5 md:gap-8 lg:gap-14 w-9/12 mx-auto rounded-lg px-2 py-4">
+          <div>
+            <img src="images/fruit1.png">
+            <h2>Grapes</h2>
+          </div>
+          <div>
+            <img src="images/fruit2.png">
+            <h2>Orange</h2>
+          </div>
+          <div>
+            <img src="images/fruit3.png">
+            <h2>Mango</h2>
+          </div>
+          <div>
+            <img src="images/fruit4.png">
+            <h2>Strawberry</h2>
+          </div>
+          <div>
+            <img src="images/fruit5.png">
+            <h2>Mango</h2>
+          </div>
+        </div>
       </div>     
 
     </header>
 
     <!-- main section -->
-    <main>
+    <main class="max-w-[1440px] mx-auto mt-6">
+
+      <!-- Deal section -->
+      <section>
+  
+     <!-- content section -->
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+          <div class="flex-1">
+            <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold md:font-extrabold mb-1">Deal of the day</h1>
+            <p class="text-sm md:text-base">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <!-- countdown -->
+      
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max flex-1 justify-end">
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:25;" class="font-bold"></span>
+                </span>
+                Days
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:10;" class="font-bold"></span>
+                </span>
+                Hours
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:24;" class="font-bold"></span>
+                </span>
+                Minutes
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-mono text-5xl">
+                  <span style="--value:45;" class="font-bold"></span>
+                </span>
+                Seconds
+              </div>
+            </div>
+      
+      </div>
+
+      <!-- cards section  -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+        <div class="border">
+          <img src="images/fruit6.png">
+          <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+          <p>Apples</p>
+          <div class="rating rating-sm">
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+          </div>
+              <div>
+                <!-- Open the modal using ID.showModal() method -->
+<button class="" onclick="my_modal_5.showModal()"></button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hell!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+              </div> 
+        </div>
+        <div class="border">
+          <img src="images/fruit7.png">
+          <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+          <p>Orange</p>
+          <div class="rating rating-sm">
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+      </div>  
+              <div>
+                <!-- Open the modal using ID.showModal() method -->
+<button class="" onclick="my_modal_5.showModal()">ope</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+              </div>
+        </div>
+        <div class="border">
+          <img src="images/fruit8.png">
+          <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+          <p>Red Dragon</p>
+          <div class="rating rating-sm">
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+      </div>   
+          <div>
+            <!-- Open the modal using ID.showModal() method -->
+<button class="" onclick="my_modal_5.showModal()">ope</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+          </div>
+        </div>
+        <div class="border">
+          <img src="images/fruit9.png">
+          <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
+          <p>Banana</p>
+           <div class="rating rating-sm">
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+      </div>    
+      <div>
+        <!-- Open the modal using ID.showModal() method -->
+<button class="" onclick="my_modal_5.showModal()">ope</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+      </div>
+        </div>
+      </div> 
+      
+      <button class="btn bg-primary-red border-none text-white hover:bg-orange-600">Shop Now</button>
+   </section>
 
     </main>
 
